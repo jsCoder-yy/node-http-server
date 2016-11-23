@@ -47,7 +47,6 @@ module.exports=(()=>{
       //如果访问的文件地址存在
       fs.exists(filePath,(exists)=>{
         //文件存在
-        console.log(exists);
         if(exists){
           //在返回头中写入内容类型
           response.writeHead(200,{"content-type":contentType});
