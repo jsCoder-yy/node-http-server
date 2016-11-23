@@ -1,0 +1,20 @@
+{
+  "name": "node-http-server",
+  "version": "0.0.1",
+  "description": "node-http-server",
+  "scripts": {
+    "start": "nodemon httpserver.js"
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+
+  },
+  "httpConfig": {
+    "port": "9999",
+    "ip":"127.0.0.1"
+  },
+  "author": "yy",
+  "license": "ISC"
+}
